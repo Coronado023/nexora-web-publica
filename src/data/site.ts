@@ -3,11 +3,21 @@ import { Bot, Box, Cpu, Sparkles } from "lucide-react";
 // Este archivo concentra el contenido editable de la web.
 // Cuando quieras cambiar textos, servicios o redes sociales, empieza aqui.
 
+function normalizeUrl(url: string) {
+  const cleanUrl = url.trim();
+
+  if (cleanUrl.startsWith("http://") || cleanUrl.startsWith("https://")) {
+    return cleanUrl;
+  }
+
+  return `https://${cleanUrl}`;
+}
+
 export const brand = {
   name: "Nexora",
   tagline: "Ideas que toman forma",
   email: "studio.nexora3d@gmail.com",
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://nexora.gt",
+  siteUrl: normalizeUrl(process.env.NEXT_PUBLIC_SITE_URL || "nexora3d.vercel.app"),
 };
 
 export const services = [
