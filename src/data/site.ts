@@ -6,7 +6,7 @@ import { Bot, Box, Cpu, Sparkles } from "lucide-react";
 export const brand = {
   name: "Nexora",
   tagline: "Ideas que toman forma",
-  email: "contacto@nexora.gt",
+  email: "studio.nexora3d@gmail.com",
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://nexora.gt",
 };
 
@@ -40,9 +40,10 @@ export const gallery = [
   "Productos a medida",
 ];
 
-// Reemplaza estos enlaces cuando Nexora tenga redes oficiales definitivas.
 export const channels = [
-  { label: "WhatsApp", href: "https://wa.me/" },
-  { label: "Instagram", href: "https://instagram.com/" },
-  { label: "Facebook", href: "https://facebook.com/" },
+  {
+    label: "Instagram",
+    href: "https://www.instagram.com/nexora_gt?igsh=MW4zdGhoa29yN2VpaA==",
+  },
+  { label: "Correo", href: "mailto:studio.nexora3d@gmail.com" },
 ];
