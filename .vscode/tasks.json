@@ -1,0 +1,37 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Nexora: iniciar desarrollo",
+      "type": "shell",
+      "command": "npm run dev",
+      "detail": "Levanta la web local para trabajar en VS Code. Luego abre http://localhost:3000.",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Nexora: revisar calidad",
+      "type": "shell",
+      "command": "npm run lint",
+      "detail": "Busca errores de codigo y estilo antes de publicar o hacer commit.",
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "Nexora: compilar produccion",
+      "type": "shell",
+      "command": "npm run build",
+      "detail": "Genera la version optimizada que usara Vercel en produccion.",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Nexora: revision completa",
+      "type": "shell",
+      "command": "npm run check",
+      "detail": "Ejecuta lint y build juntos. Usalo antes de subir cambios a GitHub.",
+      "group": "test",
+      "problemMatcher": []
+    }
+  ]
+}
