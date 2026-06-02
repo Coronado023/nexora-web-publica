@@ -85,13 +85,17 @@ git push -u origin main
 4. Framework preset: `Next.js`.
 5. Build command: `npm run build`.
 6. Install command: `npm ci`.
-7. Agregar variable de entorno si tienes dominio definitivo:
+7. Agregar variable de entorno:
 
 ```bash
-NEXT_PUBLIC_SITE_URL=https://tudominio.com
+NEXT_PUBLIC_SITE_URL=https://nexora3d.vercel.app
 ```
 
 8. Presionar `Deploy`.
+
+## Deployment
+
+El sitio está desplegado en: **https://nexora3d.vercel.app**
 
 ## Notas de mantenimiento
 
