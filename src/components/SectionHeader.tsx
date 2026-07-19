@@ -8,13 +8,13 @@ type SectionHeaderProps = {
 export function SectionHeader({ label, title, text }: SectionHeaderProps) {
   return (
     <div className="mx-auto max-w-7xl px-5 sm:px-8">
-      <p className="text-sm font-semibold uppercase tracking-[0.28em] text-[#38f8a8]">
+      <p className="text-sm font-semibold uppercase tracking-[0.28em] text-[#38ff00]">
         {label}
       </p>
-      <h2 className="mt-5 max-w-3xl text-4xl font-semibold tracking-tight text-white sm:text-5xl">
+      <h2 className="mt-5 max-w-3xl text-4xl font-semibold tracking-tight text-[#231f20] sm:text-5xl">
         {title}
       </h2>
-      <p className="mt-5 max-w-2xl leading-7 text-white/62">{text}</p>
+      <p className="mt-5 max-w-2xl leading-7 text-[#4b4748]">{text}</p>
     </div>
   );
 }

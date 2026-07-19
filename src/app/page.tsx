@@ -10,7 +10,7 @@ import { Services } from "@/components/Services";
 // Cada bloque visual vive en src/components para mantener el proyecto ordenado.
 export default function Home() {
   return (
-    <main className="min-h-screen overflow-hidden bg-[#050507] text-white">
+    <main className="min-h-screen overflow-hidden bg-white text-[#231f20]">
       <Header />
       <Hero />
       <Services />

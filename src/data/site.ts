@@ -23,31 +23,31 @@ export const brand = {
 export const services = [
   {
     title: "Impresion 3D",
-    text: "Prototipos, piezas funcionales y productos personalizados con acabados precisos.",
+    text: "Fabricacion de piezas decorativas, funcionales y personalizadas mediante tecnologia de impresion 3D.",
     icon: Box,
   },
   {
-    title: "Desarrollo digital",
-    text: "Webs, sistemas internos y herramientas conectadas para operar con mas velocidad.",
+    title: "Productos de catalogo",
+    text: "Seleccion de productos listos para fabricar, elegidos por su utilidad, diseno y calidad visual.",
     icon: Cpu,
   },
   {
-    title: "Automatizacion",
-    text: "Flujos inteligentes para reducir tareas repetitivas y ordenar procesos.",
+    title: "Personalizacion",
+    text: "Adaptamos productos y proyectos para ajustarlos a necesidades especificas cuando sea posible.",
     icon: Bot,
   },
   {
-    title: "Diseno moderno",
-    text: "Identidad visual, interfaces limpias y experiencias listas para crecer.",
+    title: "Desarrollo continuo",
+    text: "Nexora evoluciona constantemente incorporando nuevas ideas, productos y procesos de fabricacion.",
     icon: Sparkles,
   },
 ];
 
 export const gallery = [
-  "Prototipos",
-  "Accesorios",
-  "Piezas tecnicas",
-  "Productos a medida",
+  "Productos decorativos",
+  "Piezas funcionales",
+  "Organizacion y escritorio",
+  "Productos personalizados",
 ];
 
 export const channels = [

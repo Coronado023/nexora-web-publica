@@ -1,17 +1,6 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import { brand } from "@/data/site";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Nexora | Impresion 3D, tecnologia y desarrollo digital",
@@ -26,7 +15,7 @@ export const metadata: Metadata = {
     siteName: "Nexora",
     images: [
       {
-        url: "/brand/nexora-logo.jpeg",
+        url: "/brand/new/nexora.png",
         width: 1200,
         height: 1200,
         alt: "Logo oficial Nexora",
@@ -39,7 +28,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Nexora | Ideas que toman forma",
     description: "Impresion 3D, tecnologia y desarrollo digital.",
-    images: ["/brand/nexora-logo.jpeg"],
+    images: ["/brand/new/nexora.png"],
   },
 };
 
@@ -51,7 +40,7 @@ export default function RootLayout({
   return (
     <html
       lang="es"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className="h-full antialiased"
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>

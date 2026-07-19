@@ -1,15 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  --background: #050507;
-  --foreground: #f7f7fb;
+  --background: #ffffff;
+  --foreground: #231f20;
+  --nexora-green: #38ff00;
+  --nexora-charcoal: #231f20;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: Arial, Helvetica, sans-serif;
+  --font-mono: "Courier New", monospace;
 }
 
 body {
@@ -22,42 +24,42 @@ html {
 }
 
 ::selection {
-  background: #38f8a8;
-  color: #050507;
+  background: #38ff00;
+  color: #080808;
 }
 
 .tech-grid {
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.055) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.055) 1px, transparent 1px);
+    linear-gradient(rgba(35, 31, 32, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(35, 31, 32, 0.06) 1px, transparent 1px);
   background-size: 56px 56px;
   mask-image: linear-gradient(to bottom, black, transparent 88%);
 }
 
 .gallery-1 {
   background:
-    radial-gradient(circle at 50% 38%, rgba(56, 248, 168, 0.42), transparent 23%),
-    conic-gradient(from 130deg, #171023, #2b0d57, #0a8f69, #171023);
+    radial-gradient(circle at 50% 38%, rgba(56, 255, 0, 0.5), transparent 23%),
+    conic-gradient(from 130deg, #151515, #231f20, #123008, #151515);
 }
 
 .gallery-2 {
   background:
-    linear-gradient(140deg, rgba(163, 59, 255, 0.92), transparent 60%),
+    linear-gradient(140deg, rgba(56, 255, 0, 0.7), transparent 60%),
     repeating-linear-gradient(90deg, rgba(255,255,255,0.08) 0 2px, transparent 2px 18px),
     #0b1010;
 }
 
 .gallery-3 {
   background:
-    radial-gradient(circle at 68% 34%, rgba(163, 59, 255, 0.55), transparent 26%),
-    linear-gradient(135deg, #06110c, #111018 55%, #0f0630);
+    radial-gradient(circle at 68% 34%, rgba(56, 255, 0, 0.45), transparent 26%),
+    linear-gradient(135deg, #081005, #171717 55%, #231f20);
 }
 
 .gallery-4 {
   background:
-    linear-gradient(160deg, rgba(56, 248, 168, 0.65), transparent 45%),
-    radial-gradient(circle at 30% 75%, rgba(163, 59, 255, 0.7), transparent 28%),
-    #09080e;
+    linear-gradient(160deg, rgba(56, 255, 0, 0.65), transparent 45%),
+    radial-gradient(circle at 30% 75%, rgba(255, 255, 255, 0.15), transparent 28%),
+    #121212;
 }
 
 .animate-rise {
