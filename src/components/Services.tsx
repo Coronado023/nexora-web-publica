@@ -1,29 +1,39 @@
 import { services } from "@/data/site";
 import { SectionHeader } from "./SectionHeader";
 
-// Servicios principales de Nexora. La informacion viene desde src/data/site.ts.
+// Nuestra propuesta: los pilares sobre los que Nexora está construyendo la marca.
 export function Services() {
   return (
-    <section id="servicios" className="relative border-t border-black/6 bg-[#f7faf5] py-24">
+    <section
+      id="servicios"
+      className="relative border-t border-black/6 bg-[#f7faf5] py-24"
+    >
       <SectionHeader
-  label="Servicios"
-  title="Productos y soluciones creadas mediante impresion 3D."
-  text="Nexora nace con el objetivo de crear productos impresos en 3D que combinen funcionalidad,
-  diseño y calidad."
-/>
+        label="Nuestra propuesta"
+        title="Construyendo una marca enfocada en la impresión 3D."
+        text="Nexora está dando sus primeros pasos con una visión clara: desarrollar productos útiles, creativos y de calidad, mientras construimos una comunidad apasionada por la innovación y la fabricación digital."
+      />
+
       <div className="mx-auto mt-12 grid max-w-7xl gap-4 px-5 sm:px-8 md:grid-cols-2 lg:grid-cols-4">
         {services.map((service) => {
           const Icon = service.icon;
+
           return (
             <article
               key={service.title}
               className="group rounded-xl border border-black/8 bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-[#38ff00]/55 hover:shadow-lg"
             >
-              <div className="mb-8 flex h-11 w-11 items-center justify-center rounded-md border border-[#38ff00]/35 bg-[#38ff00]/10 text-[#38ff00]">
+              <div className="mb-8 flex h-11 w-11 items-center justify-center rounded-md border border-[#38ff00]/35 bg-[#38ff00]/10 text-[#38ff00] transition-colors duration-300 group-hover:bg-[#38ff00] group-hover:text-[#17220f]">
                 <Icon size={21} />
               </div>
-              <h3 className="text-xl font-semibold text-[#231f20]">{service.title}</h3>
-              <p className="mt-3 text-sm leading-6 text-[#5d595a]">{service.text}</p>
+
+              <h3 className="text-xl font-semibold text-[#231f20]">
+                {service.title}
+              </h3>
+
+              <p className="mt-3 text-sm leading-6 text-[#5d595a]">
+                {service.text}
+              </p>
             </article>
           );
         })}

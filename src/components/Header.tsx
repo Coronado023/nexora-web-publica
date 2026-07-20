@@ -9,7 +9,7 @@ const navigation = [
   { label: "Inicio", href: "#inicio" },
   { label: "Nuestra Propuesta", href: "#servicios" },
   { label: "Sobre Nexora", href: "#nexora" },
-  { label: "Galeria", href: "#galeria" },
+  { label: "Inspiración", href: "#galeria" },
   { label: "Contacto", href: "#contacto" },
 ];
 
