@@ -13,27 +13,27 @@ export function Hero() {
         <div className="animate-rise">
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-[#38ff00]/35 bg-[#efffea] px-3 py-2 text-sm font-medium text-[#277413]">
             <Zap size={15} />
-            Fabricacion digital e impresion 3D
+            Una marca en crecimiento
           </div>
           <h1 className="max-w-4xl text-5xl font-semibold leading-[1.02] tracking-tight text-[#231f20] sm:text-7xl">
             Transformamos ideas en productos reales mediante impresion 3D.
           </h1>
           <p className="mt-7 max-w-2xl text-lg leading-8 text-[#4b4748]">
-           Nexora es un proyecto enfocado en impresion 3D y fabricacion digital. Creamos productos funcionales, decorativos y personalizados utilizando tecnologia moderna, creatividad y aprendizaje continuo.
+           Nexora es una marca guatemalteca que está dando sus primeros pasos en el mundo de la impresión 3D. Nuestro objetivo es construir una comunidad y desarrollar productos que combinen creatividad, diseño y funcionalidad.
           </p>
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
             <a
               href="#servicios"
               className="inline-flex h-12 items-center justify-center gap-2 rounded-md bg-[#38ff00] px-5 font-semibold text-[#17220f] shadow-[0_10px_24px_rgba(56,255,0,0.2)] transition hover:bg-[#73ff4f]"
             >
-              Ver Productos
+              Conocer Nexora
               <ArrowRight size={18} />
             </a>
             <a
               href="#galeria"
               className="inline-flex h-12 items-center justify-center rounded-md border border-[#231f20]/15 bg-white px-5 font-semibold text-[#231f20] transition hover:border-[#38ff00]/70"
             >
-              Explorar galeria
+              Explorar la vision de Nexora
             </a>
           </div>
         </div>

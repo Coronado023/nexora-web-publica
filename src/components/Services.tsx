@@ -8,7 +8,8 @@ export function Services() {
       <SectionHeader
   label="Servicios"
   title="Productos y soluciones creadas mediante impresion 3D."
-  text="Fabricamos productos funcionales, decorativos y personalizados utilizando tecnologia de impresion 3D y fabricacion digital."
+  text="Nexora nace con el objetivo de crear productos impresos en 3D que combinen funcionalidad,
+  diseño y calidad."
 />
       <div className="mx-auto mt-12 grid max-w-7xl gap-4 px-5 sm:px-8 md:grid-cols-2 lg:grid-cols-4">
         {services.map((service) => {

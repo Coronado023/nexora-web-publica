@@ -7,7 +7,7 @@ import { useState } from "react";
 
 const navigation = [
   { label: "Inicio", href: "#inicio" },
-  { label: "Servicios", href: "#servicios" },
+  { label: "Nuestra Propuesta", href: "#servicios" },
   { label: "Sobre Nexora", href: "#nexora" },
   { label: "Galeria", href: "#galeria" },
   { label: "Contacto", href: "#contacto" },
@@ -83,7 +83,7 @@ export function Header() {
               onClick={closeMenu}
               className="mt-2 inline-flex h-11 items-center justify-center gap-2 rounded-md bg-[#38ff00] px-4 text-sm font-semibold text-[#080808] transition hover:bg-[#73ff4f]"
             >
-              Iniciar proyecto
+              Contáctanos
               <ArrowRight size={16} />
             </a>
           </nav>
